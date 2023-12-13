@@ -1,0 +1,65 @@
+/* cliente form  1*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+form {
+    padding: 5%;
+    background-color: gainsboro;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10%;
+}
+
+label {
+    color: #0a0a0a;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50; /* Color de fondo verde */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+/* estilos para index */
+li{
+    width: 60%;
+    padding: 1%;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 4%;
+    background-color: #3c3d3e;
+    
+}
+
+p{
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+h6{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
