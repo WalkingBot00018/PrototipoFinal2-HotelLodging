@@ -1,4 +1,4 @@
-<h1>Editar Usuario</h1>
+<h1>Editar  Rol</h1>
 <form method="POST" action="{{ route('role.update', $roles->id_rol) }}">
 <link rel="stylesheet" href="{{ asset('css/role/edit.css') }}"> 
     @csrf

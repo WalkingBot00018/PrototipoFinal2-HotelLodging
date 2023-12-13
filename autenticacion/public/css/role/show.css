@@ -1,13 +1,15 @@
 body {
     font-family: 'Comic Sans MS', sans-serif; 
-    background-color: #f4f4f4;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #43C6AC,#16543f );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #43C6AC,#191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 h1 {
-    color: #007bff;
+    color: #ffffff;
     text-align: center;
     margin-top: 30px;
     font-size: 2.5em; 
@@ -15,7 +17,7 @@ h1 {
 }
 
 p {
-    color: #333;
+    color: #0c0c0c;
     font-weight: bold;
     margin-bottom: 15px;
     text-align: center;
@@ -24,7 +26,7 @@ p {
 a {
     display: inline-block;
     margin-top: 10px;
-    color: #007bff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1.1em; 
     transition: color 0.3s ease-in-out; 
@@ -33,6 +35,6 @@ a {
 }
 
 a:hover {
-    color: #0056b3; 
+    color: #43C6AC; 
 
 }

@@ -27,6 +27,8 @@ class CustomerController extends Controller
         $cliente = Customer::with('users')->get();
 
         return redirect()->route("customer.index")->with("success","clientes registrado exitosamente");
+
+        
         
     }
 

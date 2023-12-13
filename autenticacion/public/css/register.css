@@ -96,7 +96,9 @@ input {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #43C6AC;
     color: #fff;
+    font-size: 150%;
+    font-weight: bold;
     cursor: pointer;
 }

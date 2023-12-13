@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('content')
+
 <!-- <link rel="stylesheet" href="{{ asset('css/users.css') }}">  -->
 <a href="{{ route('bookings.index') }}">REGRESAR</a>
 <form method="post" action="{{ route('bookings.store') }}" class="my-form">
@@ -23,11 +23,13 @@
     <input type="date" name="fecha_salida" id="fecha_salida">
 
     <label for="estado">Estado</label>
-    <input type="text" name="estado" id="estado" >
+    <select name="estado" id="">
+        <option value="Reservado">Reservado</option>
+        <option value="No Reservado">No Reservado</option>
+    </select>
 
 
     <input type="submit" value="Create" class="btn btn-primary"/>
 
 </form>
 
-@endsection

@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="{{ asset('css/users.css') }}">  
+<link rel="stylesheet" href="{{ asset('css/user/index.css') }}">  
 <a class="olo" href="{{ route('user.create') }}">Create new user</a>
 @forelse ($users as $user)
     <div class="user-item">

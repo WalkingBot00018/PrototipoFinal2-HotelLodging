@@ -59,7 +59,7 @@
                         <p>Rol: Recepcionista</p>
                         <menu>
                             <a href="#">Cuenta recepcionista</a>
-                            <a href="#">Gestionar reservas</a>
+                            <a href="{{ route('bookings.index') }}">Gestionar reservas</a>
                         </menu>
                     </nav> 
                 @elseif (auth()->user()->id_rol == 3)
